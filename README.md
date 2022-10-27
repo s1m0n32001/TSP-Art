@@ -4,6 +4,8 @@ The Traveling Salesman Problem (TSP) (https://en.wikipedia.org/wiki/Travelling_s
 
 One such algorithm is given by the technique of Simulated Annealing (SA for short), which uses a process reminiscent of Monte Carlo procedures in order to evaluate a simil Maxwell-Boltzmann probability $e^{-\frac{E}{T}}$, where $E$ is the total length of a certain path and T is a parameter that sets how likely it is for the current path to change towards a higher length (for a more in-depth description of SA look on https://en.wikipedia.org/wiki/Simulated_annealing).
 
+![](orecchino.png)
+
 ## Recreating paintings as TSP problems
 
 Mathemtician Robert Bosch (https://www2.oberlin.edu/math/faculty/bosch/tspart-page.html) has created instances of TSP which include $\tilde 10^5$ points which recreate paintings by the likes of Leonardo and Botticelli. This project attempts to find an accettable (i.e. good looking) solution to some of these problems by implementing a variation on the SA algorithm. The technique is described in the article https://matthewmcgonagle.github.io/blog/2018/06/09/TSPArtModifiedAnnealing. The project is entirely written in C++.
@@ -44,14 +46,3 @@ Venus (140k points):  4.33% more than the current record
 
 Earring: 6.54% more than the current record
 
-#### Girl with the pearl earring 
-![](lowresEar.png)
-
-
-#### Mona Lisa
-
-![](lowresLisa.png)
-
-#### Birth of Venus
-
-![](lowresVenus.png)
