@@ -34,6 +34,15 @@ The final result, applied on Mona Lisa's smile, is found at https://github.com/s
 
 
 ## Results
-After testing it on Mona Lisa's smile, which is just a subset of the whole Mona Lisa dataset, we ran the code on three different datasets: Mona Lisa, Birth of Venus and finally The Girl with the Pearl Earring. The results (uploaded in low resolution because of github's large files policy), can be found on this repository.
+After testing it on Mona Lisa's smile, which is just a subset of the whole Mona Lisa dataset, we ran the code on three different datasets: Mona Lisa, Birth of Venus and finally The Girl with the Pearl Earring. The results (uploaded in low resolution because of github's large files policy) are reported below and can be found and downloaded from this repository.
 
+### Lengths
+
+Mona Lisa (100k points): 3.89% more than the current record
+Venus (140k points):  4.33% more than the current record
+Earring: 6.54% more than the current record
+
+![](orecchino.png)
+![](lowresLisa.png)
+![](lowresEar.png)
 
