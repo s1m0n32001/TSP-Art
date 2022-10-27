@@ -45,7 +45,7 @@ Venus (140k points):  4.33% more than the current record
 Earring: 6.54% more than the current record
 
 #### Girl with the pearl earring 
-![](orecchino.png)
+![](lowresEar.png)
 
 
 #### Mona Lisa
@@ -54,5 +54,4 @@ Earring: 6.54% more than the current record
 
 #### Birth of Venus
 
-![](lowresEar.png)
-
+![](lowresVenus.png)
