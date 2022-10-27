@@ -17,16 +17,23 @@ The initial configuration in Robert Bosch's dataset is simply obtained by shuffl
 
 In order to start the SA algorithm on a more reasonable configuration, we will rely on a *greedy guess*: we will start from a random point (e.g. the first one in the dataset) and move *towards the closest point which has not been visited yet*. The resulting path, applied on Mona Lisa's enigmatic smile, can be found in https://github.com/s1m0n32001/TSP-Art/blob/main/2_Scale/guesser.png. As one can see, anyone who would print this and hang it in their room is clearly in need of help. An eventual application of SA on this path will make it more easy on the eyes.
 
+![](2_Scale/guesser.png)
+
 ### Scale-based simulated annealing
 
 We now apply SA on the path outputted by the greedy guess, with a small difference: instead of allowing the program to reverse the tour between two randomly selected points, we restrict the pool of possible points to *the set of points which are at the end of long edges*. We fine-tuned the program to allow smaller and smaller edges to be reversed as the temperature decreases. The result can be found in https://github.com/s1m0n32001/TSP-Art/blob/main/2_Scale/scale.png.
+
+![](2_Scale/scale.png)
 
 ### Neighbours-based simulated annealing.
 The final touch is another implementation of SA, only this time allowing a reversal of the path *only on points that are close neighbours*. The program will restrict the pool of neighbours (i.e. points that are within the $k$ closest points of each other) as the temperature $T$ decreases. 
 
 The final result, applied on Mona Lisa's smile, is found at https://github.com/s1m0n32001/TSP-Art/blob/main/3_Neighbour/neigh.png.
 
+![](2_Scale/neigh.png)
+
 
 ## Results
 After testing it on Mona Lisa's smile, which is just a subset of the whole Mona Lisa dataset, we ran the code on three different datasets: Mona Lisa, Birth of Venus and finally The Girl with the Pearl Earring. The results (uploaded in low resolution because of github's large files policy), can be found on this repository.
+
 
