@@ -43,6 +43,8 @@ Venus (140k points):  4.33% more than the current record
 Earring: 6.54% more than the current record
 
 ![](orecchino.png)
+
 ![](lowresLisa.png)
+
 ![](lowresEar.png)
 
