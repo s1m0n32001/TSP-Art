@@ -39,12 +39,20 @@ After testing it on Mona Lisa's smile, which is just a subset of the whole Mona 
 ### Lengths
 
 Mona Lisa (100k points): 3.89% more than the current record
+
 Venus (140k points):  4.33% more than the current record
+
 Earring: 6.54% more than the current record
 
+#### Girl with the pearl earring 
 ![](orecchino.png)
 
+
+#### Mona Lisa
+
 ![](lowresLisa.png)
+
+#### Birth of Venus
 
 ![](lowresEar.png)
 
