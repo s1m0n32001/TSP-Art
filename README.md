@@ -6,4 +6,4 @@ One such algorithm is given by the technique of Simulated Annealing (SA for shor
 
 ## Recreating paintings as TSP problems
 
-![](orecchino.JPG)
+![alt text](https://github.com/s1m0n32001/TSP-Art/blob/main/orecchinojepg.jpg?raw=true)
